@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-burger" viewBox="0 0 41 32">
+      <path fill="none" d="M0 4.571V0h41.143v4.571H0zM0 32v-4.571h41.143V32H0zm0-13.714v-4.571h41.143v4.571H0z" style="fill:var(--color1, #feffe8)"/>
+    </symbol>
+    <symbol id="icon-close-btn" viewBox="0 0 32 32">
+      <path fill="#feffe8" d="M9.333 32 0 22.667V9.334L9.333.001h13.333l9.333 9.333v13.333L22.666 32H9.333zm1.6-8.444L16 18.489l5.067 5.067 2.489-2.489L18.489 16l5.067-5.067-2.489-2.489L16 13.511l-5.067-5.067-2.489 2.489L13.511 16l-5.067 5.067 2.489 2.489zm-.089 4.888h10.311l7.289-7.289V10.844l-7.289-7.289H10.844l-7.289 7.289v10.311l7.289 7.289z" style="fill:var(--color1, #feffe8)"/>
+    </symbol>
+    <symbol id="icon-google-play" viewBox="0 0 26 32">
+      <path fill="#ffc801" d="M24.987 14.064c1.176.876 1.176 2.849.074 3.726l-3.103 1.757-4.598-3.62 4.609-3.551 3.018 1.688z" style="fill:var(--color2, #ffc801)"/>
+      <path fill="#f93647" d="m21.982 19.53-.001-.001h-.001l-4.629-3.603-.016.012L.304 28.91v.542c0 .716.168 1.48.739 1.745.754.349 1.853-.334 1.853-.334l19.086-11.334z" style="fill:var(--color3, #f93647)"/>
+      <path fill="#00d3ff" d="M17.335 15.939.304 28.911V2.677l17.031 13.262z" style="fill:var(--color4, #00d3ff)"/>
+      <path fill="#00ef77" d="M.304 2.414v.263l17.031 13.262.016-.012.001-.001.007-.006 4.609-3.524S7.143 3.533 2.845.977C2.658.866 2.21.584 1.673.76c-.644.211-1.37.976-1.37 1.654z" style="fill:var(--color5, #00ef77)"/>
+    </symbol>
+    <symbol id="icon-titel" viewBox="0 0 166 32">
+      <path fill="#00ef77" d="M.304 2.414v.263l17.031 13.262.016-.012.001-.001.007-.006 4.609-3.524S7.143 3.533 2.845.977C2.658.866 2.21.584 1.673.76c-.644.211-1.37.976-1.37 1.654z" style="fill:var(--color5, #00ef77)"/>
+    </symbol>
+    <symbol id="icon-arrow_left" viewBox="0 0 16 32">
+      <path fill="#feffe8" d="M16 32 0 16 16 0v32z" style="fill:var(--color1, #feffe8)"/>
+    </symbol>
+    <symbol id="icon-arrow_right" viewBox="0 0 16 32">
+      <path fill="#feffe8" d="M0 32V0l16 16L0 32z" style="fill:var(--color1, #feffe8)"/>
+    </symbol>
+    <symbol id="icon-keyboard_arrow_down" viewBox="0 0 48 32">
+      <path fill="#feffe8" d="M24 32 0 6.054 5.6 0 24 19.892 42.4 0 48 6.054 24 32z" style="fill:var(--color1, #feffe8)"/>
+    </symbol>
+    <symbol id="icon-star_half" viewBox="0 0 34 32">
+      <path fill="#feffe8" d="m22.147 25.011-1.389-6.063 4.674-4.042-6.147-.547-2.442-5.726V21.77l5.305 3.242zM6.442 32l2.737-11.832L0 12.21l12.126-1.053L16.842-.001l4.716 11.158 12.126 1.053-9.179 7.958L27.242 32l-10.4-6.274L6.442 32z" style="fill:var(--color1, #feffe8)"/>
+    </symbol>
+    <symbol id="icon-star_rate" viewBox="0 0 32 32">
+      <path fill="#feffe8" d="M12.16 23.44 16 20.48l3.84 2.96-1.44-4.88L22 16h-4.48L16 11.04 14.48 16H10l3.6 2.56-1.44 4.88zM6.12 32l3.72-12.16L0 12.8h12.16L16 0l3.84 12.8H32l-9.84 7.04L25.88 32 16 24.48 6.12 32z" style="fill:var(--color1, #feffe8)"/>
+    </symbol>
+    <symbol id="icon-Frame_about_mob" viewBox="0 0 40 32">
+      <path fill="#feffe8" d="M12.16 23.44 16 20.48l3.84 2.96-1.44-4.88L22 16h-4.48L16 11.04 14.48 16H10l3.6 2.56-1.44 4.88zM6.12 32l3.72-12.16L0 12.8h12.16L16 0l3.84 12.8H32l-9.84 7.04L25.88 32 16 24.48 6.12 32z" style="fill:var(--color1, #feffe8)"/>
+    </symbol>
+    <symbol id="icon-frame_about" viewBox="0 0 40 32">
+      <path fill="#feffe8" d="M12.16 23.44 16 20.48l3.84 2.96-1.44-4.88L22 16h-4.48L16 11.04 14.48 16H10l3.6 2.56-1.44 4.88zM6.12 32l3.72-12.16L0 12.8h12.16L16 0l3.84 12.8H32l-9.84 7.04L25.88 32 16 24.48 6.12 32z" style="fill:var(--color1, #feffe8)"/>
+    </symbol>
+    <symbol id="icon-frame_titel_mob" viewBox="0 0 166 32">
+      <path fill="#feffe8" d="M12.16 23.44 16 20.48l3.84 2.96-1.44-4.88L22 16h-4.48L16 11.04 14.48 16H10l3.6 2.56-1.44 4.88zM6.12 32l3.72-12.16L0 12.8h12.16L16 0l3.84 12.8H32l-9.84 7.04L25.88 32 16 24.48 6.12 32z" style="fill:var(--color1, #feffe8)"/>
+    </symbol>
+  </defs>
+</svg>

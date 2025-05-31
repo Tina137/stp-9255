@@ -1,87 +1,58 @@
 .header {
-  padding: 20px 0;
-}
-
-.wrapper {
-  display: flex;
-  gap: 60px;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  margin-right: auto;
-  width: 100%;
-}
-.nav-logo {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-.nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
-  
-}
-.nav-link {
-  position: relative;
-  display: block;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  transition: 200ms ease-in;
-}
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
-}
-.nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%) translateY(100%);
-  width: 110%;
-  height: 4px;
-  border-radius: 4px;
-  transform-origin: center;
-  animation: stretch 400ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 200ms both;
-}
-.nav-link.active::after {
-  background: #747bff;
-}
-
-.burger-btn,
-.btn-close {
-  padding: 0.5em 0.8em;
-  font-size: 1rem;
-  background-color: blueviolet;
-  border: none;
-  border-radius: 0.5em;
-  color: #fff;
-}
-
-.burger-menu {
-  background-color: lightgreen;
-  display: flex;
-  justify-content: space-between;
-  width: 150px;
-  padding: 8px;
   position: absolute;
   top: 0;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  z-index: 1000;
+  transition: background-color 300ms ease, backdrop-filter 300ms ease;
+  margin: 10px 0px;
 }
-
-.btn-close {
-  align-self: baseline;
-  padding: 4px;
-}
-
-[data-visible='open'] {
+.header-wrapp {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-[data-visible='close'] {
+.burger-menu-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    margin: 12px 0px;
+    width: 1200px;
+  }
+  .burger-menu-button {
+    display: none;
+  }
+}
+
+.header-nav {
   display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .header-nav {
+    height: 76px;
+    display: flex;
+    overflow: hidden;
+  }
+}
+
+.nav-list {
+  display: flex;
+  gap: 24px;
+  margin: auto 0;
+}
+.header-nav-link {
+  font-weight: 400;
+  font-size: 20px;
+  color: #feffe8;
 }
