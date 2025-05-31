@@ -1,11 +1,26 @@
-const openBtnEl = document.querySelector('[data-action="open"]');
-const closeBtnEl = document.querySelector('[data-action="close"]');
-const burgerMenuEl = document.querySelector('[data-visible]');
+const openBtnEl = document.querySelector('[data-type="mobile-menu-openBtn"]');
+const closeBtnEl = document.querySelector('[data-type="mobile-menu-closeBtn"]');
+const burgerMenuEl = document.querySelector(
+  '[data-type="mobile-menu-overlay"]'
+);
 
-openBtnEl.addEventListener('click', e => {
-  burgerMenuEl.dataset.visible = 'open';
-});
+openBtnEl.addEventListener('click', openMobileMenu);
+closeBtnEl.addEventListener('click', closeMobileMenu);
+burgerMenuEl.addEventListener('click', overlayClick);
 
-closeBtnEl.addEventListener('click', e => {
-  burgerMenuEl.dataset.visible = 'close';
-});
+function overlayClick(event) {
+  if (event.target === event.currentTarget || event.target.tagName === 'A') {
+    burgerMenuEl.dataset.action = 'isClose';
+    document.documentElement.dataset.scrollLock = false;
+  }
+}
+
+function closeMobileMenu() {
+  burgerMenuEl.dataset.action = 'isClose';
+  document.documentElement.dataset.scrollLock = false;
+}
+
+function openMobileMenu() {
+  burgerMenuEl.dataset.action = 'isOpen';
+  document.documentElement.dataset.scrollLock = true;
+}

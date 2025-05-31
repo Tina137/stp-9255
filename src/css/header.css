@@ -4,7 +4,7 @@
   left: 50%;
   transform: translateX(-50%);
   width: 320px;
-  z-index: 1000;
+  z-index: 500;
   transition: background-color 300ms ease, backdrop-filter 300ms ease;
   margin: 10px 0px;
 }
