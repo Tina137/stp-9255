@@ -1,0 +1,129 @@
+.cookies-container {
+  position: fixed;
+  z-index: 99;
+  width: 100vw;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    #002844 0%,
+    #023458 29.81%,
+    #002c4b 70.19%,
+    #001626 100%
+  );
+  padding: 40px 0px;
+}
+
+[data-is-cookies-visible='true'] {
+  display: block;
+}
+
+[data-is-cookies-visible='false'] {
+  display: none;
+}
+
+.cookies-wrapper {
+  width: 288px;
+  margin: 0 auto;
+  align-items: center;
+}
+.cookies-head {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #feffe8;
+  margin-bottom: 24px;
+}
+.cookies-desc {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #feffe8;
+  margin-bottom: 40px;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+}
+
+[data-is-accept] {
+  border-radius: 8px;
+  padding: 16px 40px;
+  width: 288px;
+  height: 62px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  outline: none;
+  transition: 0.3 ease-in;
+  transition-property: color, background-color;
+}
+
+[data-is-accept='true'] {
+  border: none;
+  background: #feffe8;
+  color: #000f1a;
+}
+
+[data-is-accept='false'] {
+  border: 2px solid #feffe8;
+  background: transparent;
+  color: #feffe8;
+}
+
+[data-is-accept='true']:active {
+  background: #15b4b9;
+}
+
+[data-is-accept='false']:active {
+  border: 2px solid #15b4b9;
+  color: #15b4b9;
+}
+
+[data-is-accept='true']:hover,
+[data-is-accept='true']:focus {
+  text-decoration: underline;
+}
+
+[data-is-accept='false']:hover,
+[data-is-accept='true']:focus {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 1200px) {
+  .cookies-container {
+    height: 322px;
+  }
+
+  .cookies-wrapper {
+    width: 1090px;
+  }
+
+  .cookies-head {
+    font-size: 32px;
+    line-height: 112%;
+    letter-spacing: 0.02em;
+  }
+  .cookies-desc {
+    font-size: 20px;
+    line-height: 100%;
+    margin-bottom: 50px;
+  }
+
+  [data-is-accept] {
+    width: 252px;
+    font-size: 20px;
+    padding: 16px 38px;
+  }
+
+  .button-wrapper {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
