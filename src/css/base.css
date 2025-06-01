@@ -18,4 +18,32 @@ body {
   padding: 0;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  background: linear-gradient(
+    to right,
+    #093e64 0%,
+    #043558 30%,
+    #043558 70%,
+    #003053 100%
+  );
+  color: #feffe8;
+}
+section {
+  padding: 32px 0;
+  color: #feffe8;
+}
+h2 {
+  text-align: center;
+  text-shadow: 0px 4px 36px rgba(255, 255, 255, 0.5);
+  font-family: 'Delius Unicase', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+button {
+  border: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  section {
+    padding: 60px 0;
+  }
 }
