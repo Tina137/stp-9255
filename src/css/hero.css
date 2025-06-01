@@ -1,0 +1,119 @@
+.hero-section {
+  background: url('../img/hero-image/mobile_bgr_hero_1x.jpg') no-repeat center
+    top;
+  background-size: auto;
+  width: 100%;
+}
+
+@media only screen and (min-resolution: 192dpi),
+  only screen and (min-device-pixel-ratio: 2) {
+  .hero-section {
+    background: url('../img/hero-image/mobile_bgr_hero_2x.jpg') no-repeat center
+      top;
+    background-size: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-section {
+    background: url('../img/hero-image/desctop_bgr_hero_1x.jpg') no-repeat
+      center top;
+    background-size: auto;
+  }
+
+  @media only screen and (min-resolution: 192dpi),
+    only screen and (min-device-pixel-ratio: 2) {
+    .hero-section {
+      background: url('../img/hero-image/desctop_bgr_hero_2x.jpg') no-repeat
+        center top;
+      background-size: auto 100%;
+    }
+  }
+}
+.hero-wrapp {
+  padding: 100px 0px 60px 0px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 288px;
+  position: relative;
+}
+@media screen and (min-width: 1200px) {
+  .hero-wrapp {
+    padding: 360px 96px 140px 96px;
+    max-width: 936px;
+  }
+}
+.main_titel {
+  font-family: 'Delius Unicase', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #feffe8;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 24px;
+  width: 288px;
+}
+
+@media screen and (min-width: 1200px) {
+  .main_titel {
+    font-size: 60px;
+    line-height: 107%;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    width: 936px;
+  }
+}
+
+.hero_text {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #feffe8;
+  margin-bottom: 40px;
+}
+
+.play-icon-wrapper {
+  background-color: #003055;
+  border-radius: 4px;
+  padding: 2px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.play-icon {
+  display: block;
+}
+.hero_download_btn {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  background: #15b4b9;
+  font-weight: 500;
+  font-size: 16px;
+  color: #feffe8;
+  text-shadow: 0 4px 20px #000;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* .pay-btn-text {
+  font-weight: 500;
+  font-size: 16px;
+  color: #feffe8;
+  text-shadow: 0 4px 20px 0 #000;
+} */
+@media screen and (min-width: 1124px) {
+  .hero_download_btn {
+    font-size: 20px;
+    padding: 16px 40px;
+  }
+}
