@@ -3,6 +3,9 @@
 <symbol id="icon-Vector" viewBox="0 0 166 32">
 <path fill="#feffe8" style="fill: var(--color1, #feffe8)" d="M12.8 20.867l3.2-2.467 3.2 2.467-1.2-4.067 3-2.133h-3.733l-1.267-4.133-1.267 4.133h-3.733l3 2.133-1.2 4.067zM7.767 28l3.1-10.133-8.2-5.867h10.133l3.2-10.667 3.2 10.667h10.133l-8.2 5.867 3.1 10.133-8.233-6.267-8.233 6.267z"></path>
 </symbol>
+ <symbol id="icon-Vector_title_mob" viewBox="0 0 107 32">
+      <path fill="none" stroke="#feffe8" stroke-width=".744" d="m12.314.372 2.789 3.112H41.04l.108-.105.05-.048 3.03-2.959h62.563v27.403l-2.869 3.852H89.208l-3.187-2.334H61.763l-.147.124-2.641 2.21H4.398L.372 27.338V.371h11.941z" style="stroke:var(--color1, #feffe8)"/>
+    </symbol>
 <symbol id="icon-arrow_left" viewBox="0 0 32 32">
 <path fill="#feffe8" style="fill: var(--color1, #feffe8)" d="M18.667 22.667l-6.667-6.667 6.667-6.667v13.333z"></path>
 </symbol>

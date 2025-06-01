@@ -1,0 +1,124 @@
+.about {
+  background: linear-gradient(
+    90deg,
+    #093e64 0%,
+    #043558 29.81%,
+    #043558 70.19%,
+    #003053 100%
+  );
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+@media only screen and (min-width: 1200px) {
+  .about-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+.title-block {
+  position: relative;
+  background-image: url('../img/titel_frame_mobile.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 288px;
+  height: 86px;
+  margin: 0 auto 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.title-text {
+  display: block;
+  font-family: 'Delius Unicase', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #feffe8;
+  text-shadow: 0 4px 36px rgba(255, 255, 255, 0.5);
+}
+
+.about-img-side {
+  width: 288px;
+}
+.about-descr-side {
+  width: 288px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .title-block {
+    width: 520px;
+    height: 102px;
+    background-image: url('../img/titel_frame_descktop.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 60px;
+  }
+
+  .title-text {
+    font-size: 40px;
+    line-height: 140%;
+  }
+  .about-img-side,
+  .about-descr-side {
+    width: 554px;
+    flex-shrink: 0;
+    height: 445px;
+  }
+}
+.about-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #feffe8;
+  margin-bottom: 24px;
+}
+.text-accent {
+  font-weight: 500;
+}
+.about-subtitel {
+  font-weight: 400;
+  font-size: 16px;
+  color: #feffe8;
+  margin-bottom: 16px;
+}
+.about-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.about-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #feffe8;
+}
+@media only screen and (min-width: 1200px) {
+  .about-text {
+    font-size: 20px;
+  }
+  .about-subtitel {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .about-item {
+    font-size: 20px;
+  }
+  .about-list {
+    gap: 16px;
+  }
+}
