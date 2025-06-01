@@ -47,3 +47,30 @@ button {
     padding: 60px 0;
   }
 }
+
+/* title border */
+.section-title-container {
+  position: relative;
+  background-image: url('../img/titel_frame_mobile.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 288px;
+  height: 86px;
+  margin: 0 auto 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+@media only screen and (min-width: 1200px) {
+  .section-title-container {
+    width: 520px;
+    height: 102px;
+    background-image: url('../img/titel_frame_descktop.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 60px;
+  }
+}
