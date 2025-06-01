@@ -24,54 +24,159 @@
 
     <title>STP-9255</title>
     <script type="module" crossorigin src="/stp-9255/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/stp-9255/assets/styles-O50XRAa6.css">
+    <link rel="stylesheet" crossorigin href="/stp-9255/assets/styles-BIw4K_-p.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
-    <div class="wrapper">
-      <nav class="nav">
-        <a class="nav-logo" href="./index.html" aria-label="Site logo">
-          <svg class="nav-logo-icon" width="100" height="30">
-            <use href="/stp-9255/assets/sprite-DrGQmcl4.svg#logo"></use>
-          </svg>
-        </a>
+    <div class="header-wrapp">
+      <a href="./index.html" class="logo-head">
+        <picture>
+          <source
+            srcset="/stp-9255/assets/logo_descktop_1x-BuT8SLgy.png 1x, /stp-9255/assets/logo_descktop_2x-D4P2to7W.png 2x"
+          />
+          <img
+            src="/stp-9255/assets/logo_descktop_1x-BuT8SLgy.png"
+            width="40"
+            height="40"
+            alt="Game Logo"
+          />
+        </picture>
+      </a>
+      <button
+        class="burger-menu-button"
+        type="button"
+        data-type="mobile-menu-openBtn"
+        data-action="open"
+        aria-label="Open mobile menu"
+      >
+        <svg
+          class="burger-menu-button-icon"
+          fill="#feffe8"
+          width="24"
+          height="20"
+        >
+          <use href="../img/sprite.svg#icon-burger"></use>
+        </svg>
+      </button>
+      <nav class="header-nav">
         <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link {=$highlight-act}" href="./cookies.html"
-              >Page 2</a
-            >
+          <li><a class="header-nav-link" href="index.html"> Home</a></li>
+          <li>
+            <a class="header-nav-link" href="#about"> About the game</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link {=$highlight-curr}" href="./page-3.html"
-              >Page 3</a
-            >
+          <li>
+            <a class="header-nav-link" href="#how_play"> How to Play</a>
           </li>
+          <li>
+            <a class="header-nav-link" href="#feature"> Game Features</a>
+          </li>
+          <li><a class="header-nav-link" href=""> Heroes</a></li>
+          <li><a class="header-nav-link" href=""> Reviews</a></li>
+          <li><a class="header-nav-link" href=""> FAQ</a></li>
+          <li><a class="header-nav-link" href=""> Conditions</a></li>
         </ul>
       </nav>
-      <div class="header__burger-wrapper">
-        <button type="button" class="burger-btn" data-action="open">
-          Open menu
-        </button>
-        <div class="burger-menu" data-visible="close">
-          <ul>
-            <li><a href="#">link-1</a></li>
-            <li><a href="#">link-2</a></li>
-            <li><a href="#">link-3</a></li>
-            <li><a href="#">link-4</a></li>
-          </ul>
-          <button type="button" class="btn-close" data-action="close">
-            close
-          </button>
-        </div>
-      </div>
     </div>
   </div>
 </header>
 
 
     <main>
-      
+      <section class="hero-section" id="hero">
+  <div class="hero-wrapp container">
+    <h1 class="main_titel">
+      Fairy Legends: Tail Quest – Unravel the Magic, Rewrite the Tale!
+    </h1>
+    <p class="hero_text">
+      Enter a world of ancient myths, magical creatures, and enchanted battles!
+    </p>
+    <button class="hero_download_btn">
+      <span class="play-icon-wrapper">
+        <svg class="play-icon" width="22" height="28">
+          <use href="../img/sprite.svg#icon-google-play"></use>
+        </svg>
+      </span>
+      Download on Google Play
+    </button>
+  </div>
+</section>
+
+
+      <section class="about" id="about">
+  <div class="container">
+    <div class="title-block">
+      <h2 class="title-text">ABOUT THE GAME</h2>
+    </div>
+    <div class="about-wrapper">
+      <div class="about-img-side">
+        <picture>
+          <source
+            media="(min-width: 1190px)"
+            srcset="/stp-9255/assets/about-desktop_1x-t_1JbdZG.png 1x, /stp-9255/assets/about-desktop_2x-pWobXvuN.png 2x"
+            sizes="(min-width: 1200px) 554px, 100vw"
+          />
+          <source
+            media="(max-width: 1168px)"
+            srcset="/stp-9255/assets/mobile_1x-B-AeOpzv.png 1x, /stp-9255/assets/mobile_2x-BVLKLnHc.png 2x"
+          />
+          <img
+            class="about-image"
+            src="/stp-9255/assets/about-desktop_1x-t_1JbdZG.png"
+            alt="Game Tail Quest"
+          />
+        </picture>
+      </div>
+
+      <div class="about-descr-side">
+        <p class="about-text">
+          Enter an era of war, betrayal, and resilience in<span
+            class="text-accent"
+            >Dynasty: Fallen & Rise,</span
+          >
+          a tactical strategy RPG where your choices shape the fate of an
+          empire. Play as an exiled heir fighting to reclaim the throne of your
+          fallen kingdom. Build alliances, master battlefield tactics, and
+          command legendary heroes in your quest to unite the land once more.
+        </p>
+        <h4 class="about-subtitel">
+          Craft your legacy in a world where every sword stroke echoes through
+          history.
+        </h4>
+        <ul class="about-list">
+          <li class="about-item">
+            <img
+              src="data:image/png;base64,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"
+              alt=""
+              width="32"
+              height="32"
+            />
+            <p>Rebuild your dynasty from ruin.</p>
+          </li>
+          <li class="about-item">
+            <img
+              src="data:image/png;base64,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"
+              alt=""
+              width="32"
+              height="32"
+            />
+            <p>Command armies in real-time battles</p>
+          </li>
+          <li class="about-item">
+            <img
+              src="data:image/png;base64,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"
+              alt=""
+              width="32"
+              height="32"
+            />
+            <p>Outsmart rivals in political intrigue and strategy</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
       
       
       
@@ -98,6 +203,66 @@
 </section>
 
     </main>
+    <div class="mobile_menu" data-action="isClose" data-type="mobile-menu-overlay">
+  <div class="modal-header">
+    <a href="./index.html" class="logo-head">
+      <picture>
+        <source
+          srcset="./img/logo_descktop_ 1x.png 1x, ./img/logo_descktop_ 2x.png 2x"
+        />
+        <img
+          src="./img/logo_descktop_ 1x.png"
+          width="40"
+          height="40"
+          alt="Game Logo"
+        />
+      </picture>
+    </a>
+    <button
+      type="button"
+      class="close-menu"
+      data-action="close"
+      data-type="mobile-menu-closeBtn"
+      aria-label="Close menu"
+    >
+      <svg class="close-icon" width="30" height="30">
+        <use href="../img/sprite.svg#icon-close-btn"></use>
+      </svg>
+    </button>
+  </div>
+  <ul class="mobile-nav">
+    <li>
+      <a class="mobile-nav-link" href="index.html" data-visibility="true">
+        Home</a
+      >
+    </li>
+    <li>
+      <a class="mobile-nav-link" href="#about" data-visibility="false">
+        About the game</a
+      >
+    </li>
+    <li>
+      <a class="mobile-nav-link" href="#how_play" data-visibility="false">
+        How to Play</a
+      >
+    </li>
+    <li>
+      <a class="mobile-nav-link" href="#feature" data-visibility="false">
+        Game Features</a
+      >
+    </li>
+    <li>
+      <a class="mobile-nav-link" href="" data-visibility="false"> Heroes</a>
+    </li>
+    <li>
+      <a class="mobile-nav-link" href="" data-visibility="false"> Reviews</a>
+    </li>
+    <li><a class="mobile-nav-link" href="" data-visibility="false"> FAQ</a></li>
+    <li>
+      <a class="mobile-nav-link" href="" data-visibility="false"> Conditions</a>
+    </li>
+  </ul>
+</div>
 
     <footer class="footer">
   <div class="container">
@@ -113,6 +278,38 @@
     </p>
   </div>
 </footer>
+
+    <div
+  class="cookies-container"
+  data-accept-cookies
+  data-is-cookies-visible="false"
+>
+  <div class="cookies-wrapper">
+    <h2 class="cookies-head">Cookies Policy</h2>
+    <p class="cookies-desc">
+      We use cookies to improve your experience on our website. By browsing this
+      website, you agree to our use of cookies.
+    </p>
+    <div class="button-wrapper">
+      <button
+        type="button"
+        aria-label="ACCEPT COOKIES"
+        class="cookies-button"
+        data-is-accept="true"
+      >
+        ACCEPT COOKIES
+      </button>
+      <button
+        type="button"
+        aria-label="DECLINE COOKIES"
+        class="cookies-button"
+        data-is-accept="false"
+      >
+        DECLINE COOKIES
+      </button>
+    </div>
+  </div>
+</div>
 
 
   </body>
