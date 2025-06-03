@@ -4,14 +4,14 @@ import { Keyboard, Pagination } from 'swiper/modules';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-let swiper = new Swiper('.mySwiper', {
+let swiper = new Swiper('[data-name="swiper"]', {
   loop: true,
   modules: [Keyboard, Pagination],
   slidesPerView: 1,
   spaceBetween: 16,
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '[data-name="next"]',
+    prevEl: '[data-name="prev"]',
   },
   grabCursor: true,
   keyboard: {
@@ -19,7 +19,7 @@ let swiper = new Swiper('.mySwiper', {
     onlyInViewport: true,
   },
   pagination: {
-    el: '.swiper-pagination',
+    el: '[data-name="pag"]',
   },
 
   breakpoints: {
@@ -30,8 +30,8 @@ let swiper = new Swiper('.mySwiper', {
   },
 });
 
-const nextButton = document.querySelector('.swiper-button-next');
-const prevButton = document.querySelector('.swiper-button-prev');
+const nextButton = document.querySelector('[data-name="next"]');
+const prevButton = document.querySelector('[data-name="prev"]');
 
 nextButton.onclick = () => swiper.slideNext();
 prevButton.onclick = () => swiper.slidePrev();

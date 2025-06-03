@@ -20,8 +20,8 @@ div.swiper-pagination {
   justify-content: space-between;
   align-items: flex-end;
 }
-.swiper-wrapper {
-  margin-bottom: 80px;
+.main-characters__wrapper {
+  margin-bottom: 24px;
 }
 span.swiper-pagination-bullet-active {
   background-color: #feffe8;
@@ -43,11 +43,9 @@ span.swiper-pagination-bullet {
     padding: 0;
   }
   span.swiper-pagination-bullet {
-    span.swiper-pagination-bullet {
-      width: var(
-        --swiper-pagination-bullet-width,
-        var(--swiper-pagination-bullet-size, 36px)
-      );
-    }
+    width: var(
+      --swiper-pagination-bullet-width,
+      var(--swiper-pagination-bullet-size, 36px)
+    );
   }
 }
