@@ -1,0 +1,52 @@
+div.ac {
+  background-color: rgba(0, 32, 57, 0);
+  border: none;
+}
+.ac button.ac-trigger {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #feffe8;
+}
+.ac button.ac-trigger:focus {
+  color: #feffe8;
+}
+.ac .ac-panel p.ac-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #feffe8;
+  border: 1px solid #feffe8;
+  border-radius: 8px;
+}
+.ac button.ac-trigger::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-top: 1.5px solid #feffe8;
+  border-right: 1.5px solid #feffe8;
+  transform: rotate(-45deg);
+}
+.ac.is-active > .ac-header button.ac-trigger::after {
+  content: '';
+  transform: rotate(135deg);
+}
+.ac button.ac-trigger::before {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #feffe8;
+  border-radius: 100px;
+  top: 40%;
+  left: -14px;
+}
+
+div.ac {
+  padding-left: 16px;
+}
+@media only screen and (min-width: 1200px) {
+  .ac button.ac-trigger {
+    font-size: 24px;
+  }
+}
