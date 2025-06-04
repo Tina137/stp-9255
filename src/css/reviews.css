@@ -1,3 +1,97 @@
-.rev-star-img {
-  fill: aqua;
+#reviews {
+  background: url('../img/how_play/mobile_bgr_1x.jpg') no-repeat center top;
+  background-size: auto;
+  width: 100%;
+}
+
+@media only screen and (min-resolution: 192dpi),
+  only screen and (min-device-pixel-ratio: 2) {
+  #reviews {
+    background: url('../img/how_play/mobile_bgr_2x.jpg') no-repeat center top;
+    background-size: auto 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #reviews {
+    background: url('../img/how_play/desctop_bgr_play_1x.jpg') no-repeat center
+      top;
+    background-size: auto 100%;
+  }
+
+  @media only screen and (min-resolution: 192dpi),
+    only screen and (min-device-pixel-ratio: 2) {
+    #reviews {
+      background: url('../img/how_play/desctop_bgr_play_2x.jpg') no-repeat
+        center top;
+      background-size: auto 100%;
+    }
+  }
+}
+.rev-card {
+  width: 288px;
+  padding: 2px;
+  border: 1px solid #feffe8;
+  border-radius: 8px;
+  background-color: rgba(0, 32, 57, 0.8);
+}
+.rev-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.two-last,
+.tree-firs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rev-title-container {
+  width: 276px;
+  height: 90px;
+  margin-bottom: 50px;
+}
+
+.rev-title-text {
+  font-size: 24px;
+}
+.rev-text {
+  margin-bottom: 18px;
+  font-size: 20px;
+}
+.rev-stars {
+  display: flex;
+  justify-content: flex-end;
+  align-items: self-start;
+  gap: 4px;
+}
+.rev-reting {
+  font-size: 14px;
+  font-weight: 100;
+}
+@media only screen and (min-width: 1200px) {
+  .rev-card {
+    width: 362px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .two-last,
+  .tree-firs {
+    flex-direction: row;
+  }
+  .two-last {
+    justify-content: center;
+  }
+  .rev-stars {
+    flex-direction: column;
+    gap: 0;
+  }
+  .rev-title-container {
+    height: 57px;
+  }
 }
