@@ -46,7 +46,7 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 20px;
-
+  color: #feffe8;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -58,10 +58,4 @@
   justify-content: center;
   border: none;
   padding: 10px;
-}
-.mobile-nav-link {
-  color: #feffe8;
-}
-.mobile-nav-link:active {
-  color: #92fef8;
 }
