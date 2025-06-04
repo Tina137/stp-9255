@@ -68,9 +68,17 @@
 .rules-ol li a {
   text-decoration: underline;
 }
+.rules-link {
+  font-size: 16px;
+  display: block;
+}
 @media only screen and (min-width: 1200px) {
   .rules-wrrap {
     padding-bottom: 76px;
+  }
+  .rules-link {
+    font-size: 20px;
+    display: block;
   }
 }
 .rules-ol li {

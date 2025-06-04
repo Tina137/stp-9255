@@ -56,6 +56,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
 }
 .play-list-item {
   border: 1px solid #feffe8;
@@ -105,6 +106,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 46px;
+    align-items: initial;
   }
   .play-list-item {
     position: relative;

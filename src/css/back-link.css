@@ -4,7 +4,7 @@
   color: #feffe8;
   margin-top: 40px;
   margin-bottom: 24px;
-  margin-left: 19px;
+  margin-left: 40px;
 }
 .back-link::before {
   content: '';
@@ -23,6 +23,5 @@
   .back-link {
     margin-bottom: 60px;
     margin-top: 100px;
-    margin-left: 18px;
   }
 }
