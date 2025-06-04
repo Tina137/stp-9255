@@ -1,13 +1,25 @@
-.header {
+[data-header-scroll][data-scrolled='false'] {
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   width: 320px;
-  z-index: 500;
+  z-index: 1005;
+  background-color: transparent;
   transition: background-color 300ms ease, backdrop-filter 300ms ease;
   margin: 10px 0px;
 }
+
+[data-header-scroll][data-scrolled='true'] {
+  position: fixed;
+  background-color: rgba(175, 175, 175, 0.2);
+  width: 320px;
+  margin: 10px 0px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .header-wrapp {
   display: flex;
   flex-direction: row;
@@ -25,7 +37,8 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .header {
+  [data-header-scroll][data-scrolled='false'],
+  [data-header-scroll][data-scrolled='true'] {
     margin: 12px 0px;
     width: 1200px;
   }
