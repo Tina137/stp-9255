@@ -1,0 +1,44 @@
+.atmosphere-title {
+  font-size: 24px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .atmosphere-title {
+    font-size: 40px;
+  }
+}
+.atmosphere-text__bold {
+  font-weight: 500;
+}
+.atmosphere_img {
+  width: 288px;
+  height: 165px;
+  margin: auto;
+}
+.atmosphere-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+.atmosphere__content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 16px;
+}
+@media only screen and (min-width: 1200px) {
+  .atmosphere__content {
+    width: 554px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+  }
+  .atmosphere_img {
+    width: 554px;
+    height: 318px;
+  }
+  .atmosphere-wrapper {
+    flex-direction: row;
+  }
+}
