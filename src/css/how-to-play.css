@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .how_play {
-  background: url('./img/how_play/mobile_bgr_1x.jpg') no-repeat center top;
+  background: url('../img/how_play/mobile_bgr_1x.jpg') no-repeat center top;
   background-size: auto;
   width: 100%;
 }
@@ -10,14 +10,14 @@
 @media only screen and (min-resolution: 192dpi),
   only screen and (min-device-pixel-ratio: 2) {
   .how_play {
-    background: url('./img/how_play/mobile_bgr_2x.jpg') no-repeat center top;
+    background: url('../img/how_play/mobile_bgr_2x.jpg') no-repeat center top;
     background-size: auto 100%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .how_play {
-    background: url('./img/how_play/desctop_bgr_play_1x.jpg') no-repeat center
+    background: url('../img/how_play/desctop_bgr_play_1x.jpg') no-repeat center
       top;
     background-size: auto 100%;
   }
@@ -25,8 +25,8 @@
   @media only screen and (min-resolution: 192dpi),
     only screen and (min-device-pixel-ratio: 2) {
     .how_play {
-      background: url('./img/how_play/desctop_bgr_play_2x.jpg') no-repeat center
-        top;
+      background: url('../img/how_play/desctop_bgr_play_2x.jpg') no-repeat
+        center top;
       background-size: auto 100%;
     }
   }
@@ -65,7 +65,7 @@
 .play-list-item {
   border: 1px solid #feffe8;
   border-radius: 8px;
-  padding: 15px 7px;
+  padding: 16px 8px;
   width: 100%;
 
   background: rgba(0, 32, 57, 0.8);
@@ -75,8 +75,8 @@
   display: flex;
   border: 1px solid #feffe8;
   border-radius: 8px;
-  padding: 5px 7px;
-  height: 28px;
+  padding: 8px 5px;
+  height: 40px;
   align-items: center;
   justify-content: center;
   font-weight: 500;
