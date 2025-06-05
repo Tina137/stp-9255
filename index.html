@@ -26,7 +26,7 @@
     <script type="module" crossorigin src="/stp-9255/index.js"></script>
     <link rel="modulepreload" crossorigin href="/stp-9255/assets/vendor-DC4OWG3m.js">
     <link rel="stylesheet" crossorigin href="/stp-9255/assets/vendor-CvAz7wqQ.css">
-    <link rel="stylesheet" crossorigin href="/stp-9255/assets/styles-3QHWbt2W.css">
+    <link rel="stylesheet" crossorigin href="/stp-9255/assets/styles-DHjsZ6u7.css">
   </head>
   <body>
     <header class="header" data-header-scroll data-scrolled="false">
@@ -63,20 +63,57 @@
       </button>
       <nav class="header-nav">
         <ul class="nav-list">
-          <li><a class="header-nav-link" href="index.html"> Home</a></li>
           <li>
-            <a class="header-nav-link" href="#about"> About the game</a>
+            <a class="header-nav-link" data-link="home" href="index.html">
+              Home</a
+            >
           </li>
           <li>
-            <a class="header-nav-link" href="#how_to_play"> How to Play</a>
+            <a class="header-nav-link" data-link="about" href="#about">
+              About the game</a
+            >
           </li>
           <li>
-            <a class="header-nav-link" href="#feature"> Game Features</a>
+            <a
+              class="header-nav-link"
+              data-link="how_to_play"
+              href="#how_to_play"
+            >
+              How to Play</a
+            >
           </li>
-          <li><a class="header-nav-link" href=""> Heroes</a></li>
-          <li><a class="header-nav-link" href=""> Reviews</a></li>
-          <li><a class="header-nav-link" href=""> FAQ</a></li>
-          <li><a class="header-nav-link" href=""> Conditions</a></li>
+          <li>
+            <a
+              class="header-nav-link"
+              data-link="feature"
+              data-link="feature"
+              href="#feature"
+            >
+              Game Features</a
+            >
+          </li>
+          <li>
+            <a
+              class="header-nav-link"
+              data-link="main-characters"
+              href="#main-characters"
+            >
+              Heroes</a
+            >
+          </li>
+          <li>
+            <a class="header-nav-link" data-link="reviews" href="#reviews">
+              Reviews</a
+            >
+          </li>
+          <li>
+            <a class="header-nav-link" data-link="faq" href="#faq"> FAQ</a>
+          </li>
+          <li>
+            <a class="header-nav-link" data-link="footer" href="#footer">
+              Conditions</a
+            >
+          </li>
         </ul>
       </nav>
     </div>
@@ -85,7 +122,7 @@
 
 
     <main>
-      <section class="hero-section" data-hero-section id="hero">
+      <section class="hero-section" data-section="home" data-hero-section id="hero">
   <div class="hero-wrapp container">
     <h1 class="main_titel">
       Fairy Legends: Tail Quest – Unravel the Magic, Rewrite the Tale!
@@ -105,7 +142,7 @@
 </section>
 
 
-      <section class="about" id="about">
+      <section class="about" id="about" data-section="about">
   <div class="container">
     <div class="section-title">
       <h2 class="title-text">ABOUT THE GAME</h2>
@@ -179,7 +216,7 @@
   </div>
 </section>
 
-      <section class="how_play" id="how_to_play">
+      <section class="how_play" id="how_to_play" data-section="how_to_play">
   <div class="container">
     <div class="section-title">
       <h2 class="title-text">How to play</h2>
@@ -278,7 +315,7 @@
   </div>
 </section>
 
-      <section class="features" id="feature">
+      <section class="features" id="feature" data-section="feature">
   <div class="container">
     <div class="section-title">
       <h2 class="title-text">Game Features</h2>
@@ -386,7 +423,7 @@
             <picture>
               <source
                 media="(min-width: 1168px)"
-                srcset="../img/features/left-slide-desk/Rectangle_2@1x.jpg 1x, /stp-9255/assets/Rectangle_2@2x-Dpj-NuQe.jpg 2x"
+                srcset="/stp-9255/assets/Rectangle_2@1x-BYutgSx7.jpg 1x, /stp-9255/assets/Rectangle_2@2x-Dpj-NuQe.jpg 2x"
               />
               <img
                 class="about-image"
@@ -603,7 +640,7 @@
   </div>
 </section>
 
-      <section id="main-characters">
+      <section id="main-characters" data-section="main-characters">
   <div class="container main-characters_container">
     <div class="section-title">
       <h2 class="title-text">Main Characters</h2>
@@ -739,7 +776,7 @@
   </div>
 </section>
 
-      <section id="reviews">
+      <section id="reviews" data-section="reviews">
   <div class="container">
     <div class="section-title-container">
       <h2 class="title-text">Riviews</h2>
@@ -956,7 +993,7 @@
   </div>
 </section>
 
-      <section id="faq">
+      <section id="faq" data-section="faq">
   <div class="container">
     <div class="section-title">
       <h2 class="title-text">faq</h2>
@@ -1043,7 +1080,7 @@
           <p class="download__text">Fallen & Rise and Forge Your Path to Glory!</p></div>
         <button class="download_btn">
           <span class="gog-wrap">
-            <svg class="" width="22" height="28">
+            <svg class="" width="30" height="30">
               <use href="/stp-9255/assets/sprite-BbqqKt1d.svg#icon-google_play_icon-1"></use>
             </svg>
           </span>
@@ -1142,7 +1179,7 @@
   </ul>
 </div>
 
-    <footer class="footer">
+    <footer class="footer" id="footer" data-section="footer">
   <div class="container">
     <div class="footer__buttons">
       <a href="./privacy.html" class="footer__btn">Privacy Policy</a>
