@@ -1,5 +1,7 @@
 const header = document.querySelector('[data-header-scroll]');
 const heroSection = document.querySelector('[data-hero-section]');
+const sections = document.querySelectorAll('[data-section]');
+const navLinks = document.querySelectorAll('[data-link]');
 
 const observerOptions = {
   root: null,
@@ -20,3 +22,26 @@ const observer = new IntersectionObserver(function (entries) {
 if (heroSection) {
   observer.observe(heroSection);
 }
+
+function onScroll() {
+  let currentSection = '';
+
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.offsetHeight;
+
+    if (scrollY >= sectionTop - sectionHeight / 3) {
+      currentSection = section.dataset.section;
+    }
+  });
+
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+
+    if (link.dataset.link === currentSection) {
+      link.classList.add('active');
+    }
+  });
+}
+
+window.addEventListener('scroll', onScroll);

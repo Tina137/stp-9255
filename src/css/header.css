@@ -73,6 +73,7 @@
 .header-nav-link:focus {
   text-decoration: underline;
 }
+.header-nav-link.active,
 .header-nav-link:active {
   color: #92fef8;
 }
