@@ -12,8 +12,6 @@ function initSwiperIfDesktop() {
       slidesPerView: 1,
       loop: true,
       modules: [Keyboard, Pagination],
-      effect: 'fade',
-      fadeEffect: { crossFade: true },
       keyboard: {
         enabled: true,
         onlyInViewport: true,
