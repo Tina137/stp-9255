@@ -4,7 +4,7 @@
   color: #feffe8;
   margin-top: 40px;
   margin-bottom: 24px;
-  margin-left: 40px;
+  margin-left: 32px;
 }
 .back-link::before {
   content: '';
@@ -22,6 +22,5 @@
 @media only screen and (min-width: 1200px) {
   .back-link {
     margin-bottom: 60px;
-    margin-top: 100px;
   }
 }
