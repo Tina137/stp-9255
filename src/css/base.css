@@ -30,6 +30,7 @@ body {
 section {
   padding: 32px 0;
   color: #feffe8;
+  scroll-margin-top: 40px;
 }
 h2 {
   text-align: center;
@@ -45,6 +46,7 @@ button {
 @media only screen and (min-width: 1200px) {
   section {
     padding: 60px 0;
+    scroll-margin-top: 60px;
   }
 }
 

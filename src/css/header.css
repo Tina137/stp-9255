@@ -13,6 +13,7 @@
 [data-header-scroll][data-scrolled='true'] {
   position: fixed;
   background-color: rgba(175, 175, 175, 0.2);
+  backdrop-filter: blur(10px);
   width: 320px;
   margin: 10px 0px;
   top: 0;
