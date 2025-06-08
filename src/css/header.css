@@ -47,6 +47,14 @@
   .burger-menu-button {
     display: none;
   }
+  .logo-head {
+    height: 52px;
+    width: 52px;
+  }
+  .logo-head-img {
+    height: 52px;
+    width: 52px;
+  }
 }
 
 .header-nav {
